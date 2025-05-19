@@ -18,22 +18,31 @@ div.STAPLES{
     padding-bottom: 3vh;
     margin-left: auto;
     margin-right:auto;
+    margin-bottom: 10vh;
  
 }
 
+div.FLEX{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 img{
     width: 25%;
-    border
+    
 }
 
 
 ul.RotisserieChicken,
 ul.JasmineRice,
 ul.SourdoughBread{
-    
-    background-color: #50593d;
-    
+
     list-style-type: none;
+
+    /*background-color:#50593d;*/
 
 }
 
