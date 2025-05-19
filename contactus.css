@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    background-color: #d5d6c6;
+}
+
+.contact-container {
+    padding: 40px;
+
+}
+
+.rounded-bar {
+    width: 200px;
+    height: 30px;
+    background-color: #e5e5d8;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.chat-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3d4a30;
+    margin-bottom: 30px;
+}
+
+.form-bubble {
+    background-color: #c9b590;
+    padding: 60px 70px;
+    border-radius: 60% / 40%;
+    max-width: 600px;
+    margin-top: -90px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #3d4a30;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 15px;
+    font-family: "Georgia", serif;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #3d4a30;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
+    align-self: center;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: "Georgia", serif;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+.topnav {
+    background-color: #f1ebe5;
+    overflow: hidden;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0em;
+    text-decoration: none;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 50%;
+}
+
+/* STYLE NAV BAR */
+nav {
+    text-align: center;
+    font-family: Garamond, serif;
+    font-weight: bold;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #423f32;
+    overflow: hidden;
+    margin-top: 0%;
+    padding: 1em
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 2em;
+    width: 20%;
+}
+
+li a:hover {
+    background-color: #a19c86;
+}
