@@ -40,11 +40,21 @@ ul.RotisserieChicken,
 ul.JasmineRice,
 ul.SourdoughBread{
 
-    list-style-type: none;
+    background-color:#50593d;
+    text-align: center;
 
-    /*background-color:#50593d;*/
+    margin-left: 2%;
+    margin-right:2%;
+    padding-left: 0;
+    padding-right:0;
 
 }
+
+/*ul a.RotisserieChicken,
+ul a.JasmineRice,
+ul a.SourdoughBread{
+    background-color: #50593d;
+}*/
 
 
 
@@ -97,8 +107,6 @@ nav {
     padding: 2em;
     width: 20%;
   }
-  
-  li a:hover {
-    background-color: #a19c86;
-  }
+
+
 
