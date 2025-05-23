@@ -32,6 +32,7 @@ div.FLEX{
 
 img{
     height: 35vh;
+    border: 2px solid #303625;
     
 }
 
@@ -50,12 +51,11 @@ ul.SourdoughBread{
 
 }
 
-/*ul a.RotisserieChicken,
-ul a.JasmineRice,
-ul a.SourdoughBread{
-    background-color: #50593d;
-}*/
-
+ul.RotisserieChicken:hover,
+ul.JasmineRice:hover,
+ul.SourdoughBread:hover{
+    background-color: #423f32;
+}
 
 
 

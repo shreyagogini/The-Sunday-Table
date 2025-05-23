@@ -1,4 +1,4 @@
-/*entrees.css*/
+/*snacks.css*/
 
 
 body{
@@ -7,7 +7,7 @@ body{
 }
 
 /*Header*/
-div.ENTREES{
+div.SNACKS{
     background-color: #f1ebe5;
     border-radius: 12px;
 
@@ -38,9 +38,9 @@ img{
 }
 
 
-ul.VodkaPasta,
-ul.TeriyakiChicken,
-ul.ChickenSpinachDumps{
+ul.TrailMix,
+ul.YogurtParfait,
+ul.CaesarSalad{
 
     background-color:#50593d;
     text-align: center;
@@ -52,13 +52,11 @@ ul.ChickenSpinachDumps{
 
 }
 
-ul.VodkaPasta:hover,
-ul.TeriyakiChicken:hover,
-ul.ChickenSpinachDumps:hover{
+ul.TrailMix:hover,
+ul.YogurtParfait:hover,
+ul.CaesarSalad:hover{
     background-color: #423f32;
 }
-
-
 
 
 /*NAV BAR*/
