@@ -1,0 +1,107 @@
+/* desserts.css*/
+
+
+body{
+    background-color: #cdcfc0;
+    color: #423f32;
+}
+
+/*Header*/
+div.STAPLES{
+    background-color: #f1ebe5;
+    border-radius: 12px;
+
+    text-align: center;
+    font-size: 22px;
+
+    width: 30%;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 10vh;
+ 
+}
+
+div.FLEX{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    height: 35vh;
+    
+}
+
+
+ul.DoubleChocolateCookies,
+ul.PumpkinPie,
+ul.MangoRice{
+
+    background-color:#50593d;
+    text-align: center;
+
+    margin-left: 2%;
+    margin-right:2%;
+    padding-left: 0;
+    padding-right:0;
+
+}
+
+
+
+
+/*NAV BAR*/
+
+.topnav {
+  background-color: #f1ebe5;
+  overflow: hidden;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0em;
+  text-decoration: none;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  width: 50%;
+}
+
+nav {
+    text-align: center;
+    font-family:  Garamond,serif;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+    background-color: #423f32;
+    overflow: hidden;
+    margin-top: 0%;
+    padding:1em
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  li a {
+    text-decoration: none; 
+    color: white;
+    font-size: 1.5em;
+    padding: 2em;
+    width: 20%;
+  }
+
+
+
