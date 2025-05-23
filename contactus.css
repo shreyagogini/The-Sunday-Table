@@ -27,12 +27,14 @@ body {
 .form-bubble {
     background-color: #c9b590;
     padding: 60px 70px;
-    border-radius: 60% / 40%;
+    border-radius: 20px;
     max-width: 600px;
     margin-top: -90px;
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
-    margin-left: auto;
+    margin-left: 500px;
+    margin-right: auto;
 }
+
 
 form {
     display: flex;
@@ -79,6 +81,7 @@ button {
     color: #f2f2f2;
     text-align: center;
     padding: 0em;
+    width: 100%;
     text-decoration: none;
 }
 
@@ -90,7 +93,6 @@ button {
     width: 50%;
 }
 
-/* STYLE NAV BAR */
 nav {
     text-align: center;
     font-family: Garamond, serif;

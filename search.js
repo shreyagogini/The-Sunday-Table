@@ -4,6 +4,9 @@ const recipes = [
     { name: "Chocolate Cookies", url: "chococookiesR.html" },
     { name: "Pumpkin Pie", url: "pumpkinpieR" },
     { name: "Chicken", url: "chickenR.html" },
+    { name: "Teriyaki Chicken", url: "teriyakichickenR.html" },
+    { name: "Vodka Pasta", url: "vodkapastaR.html" },
+    { name: "Spinach Chicken Dumplings", url: "spinachchickendumplingsR.html" },
     // Add more recipes here
 ];
 
