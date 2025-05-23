@@ -1,3 +1,5 @@
+/*entrees.css*/
+
 /* desserts.css*/
 
 
@@ -7,7 +9,7 @@ body{
 }
 
 /*Header*/
-div.DESSERTS{
+div.ENTREES{
     background-color: #f1ebe5;
     border-radius: 12px;
 
@@ -33,13 +35,14 @@ div.FLEX{
 
 img{
     height: 35vh;
+    width:auto;
     
 }
 
 
-ul.DoubleChocolateCookies,
-ul.PumpkinPie,
-ul.MangoRice{
+ul.VodkaPasta,
+ul.TeriyakiChicken,
+ul.ChickenSpinachDumps{
 
     background-color:#50593d;
     text-align: center;
@@ -102,6 +105,3 @@ nav {
     padding: 2em;
     width: 20%;
   }
-
-
-
