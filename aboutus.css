@@ -1,4 +1,5 @@
 
+/* STYLE ICON BAR */
 .topnav {
   background-color: #f1ebe5;
   overflow: hidden;
@@ -20,34 +21,82 @@
 }
 
 /* STYLE NAV BAR */
-nav {
+nav ul {
+  display: flex;
+  justify-content: center; /* or space-between, or space-evenly */
+  align-items: center;
+  background-color: #423f32;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
+
+.nav {
     text-align: center;
     font-family:  Garamond,serif;
     font-weight: bold;
     width: 100%;
   }
   
-  ul {
+  ul li.navbar {
     list-style-type: none;
     background-color: #423f32;
     overflow: hidden;
     margin-top: 0%;
     padding:1em
   }
-  
-  li {
-    display: inline;
+
+  li.navbar {
+    display: inline-block;
   }
   
-  li a {
+  li.navbar a {
     text-decoration: none; 
-    color: white;
+    color: black;
     font-size: 1.5em;
-    padding: 2em;
+    padding: 0.5em 1em;
     width: 20%;
   }
-  
-  li a:hover {
-    background-color: #a19c86;
+
+  li.navbar:hover {
+    background-color: #d0d1c6;
+  }
+  main{
+    margin-bottom: 0%;
+    margin-right: 10%;
+    margin-left: 10%;
   }
  
+/* STYLE PAGE */
+body {
+  font-family: Georgia, serif;
+  background-color: #d6d6c2;
+  min-height: 100vh;
+}
+
+h1{
+  font-family: Georgia, serif;
+  text-align: left;
+  font-size: 3em;
+  color: #50593d;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.name{
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: 1em;
+  color: black;
+}
