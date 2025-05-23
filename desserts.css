@@ -33,7 +33,7 @@ div.FLEX{
 
 img{
     height: 35vh;
-    
+    border: 2px solid #303625;
 }
 
 
@@ -49,6 +49,12 @@ ul.MangoRice{
     padding-left: 0;
     padding-right:0;
 
+}
+
+ul.DoubleChocolateCookies:hover,
+ul.PumpkinPie:hover,
+ul.MangoRice:hover{
+    background-color: #423f32;
 }
 
 
