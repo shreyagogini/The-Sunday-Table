@@ -20,79 +20,55 @@ div.RECIPENAME{
  
 }
 
-#name{
- color: black;
- font-family: Garamond,serif;
- font-size: 50px;
- text-align: center;
-}
+div.RECIPEINFO{
+    background-color: #939b5a;
+    border-radius: 12px;
 
-.contact-container {
-    padding: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Garamond", serif;
+    font-size: 22px;
 
-}
-
-.rounded-bar {
-    width: 200px;
-    height: 30px;
-    background-color: #e5e5d8;
-    border-radius: 20px;
-    margin-bottom: 1rem;
-}
-
-.chat-heading {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #3d4a30;
-    margin-bottom: 30px;
-}
-
-.form-bubble {
-    background-color: #c9b590;
-    padding: 60px 70px;
-    border-radius: 60% / 40%;
-    max-width: 600px;
-    margin-top: -90px;
-    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+    width: 30%;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 10vh;
+ 
 }
 
-form {
+div.FLEX{
+    align-items: flex-start;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-label {
-    font-size: 1.1rem;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color: #3d4a30;
+.ingredients-list{
+    background-color: #939b5a;
+    text-align: center;
+
+    margin-left: 2%;
+    margin-right:2%;
+    padding-left: 0;
+    padding-right:0;
 }
 
-input,
-textarea {
-    padding: 10px;
-    border-radius: 8px;
-    border: none;
-    margin-bottom: 15px;
-    font-family: "Georgia", serif;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+.instructions-list{
+    background-color: #939b5a;
+    text-align: center;
+
+    margin-left: 2%;
+    margin-right:2%;
+    padding-left: 0;
+    padding-right:0;
 }
 
-button {
-    background-color: #3d4a30;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 40px;
-    border: none;
-    align-self: center;
-    margin-top: 10px;
-    cursor: pointer;
-    font-family: "Georgia", serif;
-    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+.column{
+    padding-left: 5%;
 }
-
-
 .topnav {
     background-color: #f1ebe5;
     overflow: hidden;
@@ -103,6 +79,14 @@ button {
     text-align: center;
     padding: 0em;
     text-decoration: none;
+}
+
+#ingredients{
+    text-decoration: underline
+}
+
+#instructions{
+    text-decoration: underline
 }
 
 #logo {
