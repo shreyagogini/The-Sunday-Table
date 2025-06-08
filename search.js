@@ -1,11 +1,8 @@
 const recipes = [
     { name: "Jasmine Rice", url: "jasminericeR.html" },
-    { name: "Mango Sticky Rice", url: "mangoriceR.html" },
     { name: "Double Chocolate Cookies", url: "chococookiesR.html" },
-    { name: "Pumpkin Pie", url: "pumpkinpieR" },
+    { name: "Pumpkin Pie", url: "pumpkinpieR.html" },
     { name: "Chicken", url: "chickenR.html" },
-    { name: "Teriyaki Chicken", url: "teriyakichickenR.html" },
-    { name: "Vodka Pasta", url: "vodkapastaR.html" },
     { name: "Chicken Spinach Dumplings", url: "chickenspindumpR.html" },
     { name: "Sourdough Bread", url: "sourdoughR.html" },
     { name: "Yogurt Parfait", url: "yogurtparfaitR.html" },
@@ -14,7 +11,6 @@ const recipes = [
     { name: "Trail Mix", url: "trailmixR.html" },
     { name: "Caesar Salad", url: "caesarsaladR.html" },
     { name: "Pasta al la Vodka", url: "pastalavodkaR.html" },
-    // Add more recipes here
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
