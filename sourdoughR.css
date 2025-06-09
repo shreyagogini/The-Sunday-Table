@@ -4,7 +4,7 @@ body {
     background-color: #d5d6c6;
 }
 
-div.RECIPENAME{
+div.RECIPENAME {
     background-color: #f1ebe5;
     border-radius: 12px;
 
@@ -15,12 +15,12 @@ div.RECIPENAME{
     padding-top: 3vh;
     padding-bottom: 3vh;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     margin-bottom: 10vh;
- 
+
 }
 
-div.RECIPEINFO{
+div.RECIPEINFO {
     background-color: #939b5a;
     border-radius: 12px;
 
@@ -33,12 +33,12 @@ div.RECIPEINFO{
     padding-top: 3vh;
     padding-bottom: 3vh;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     margin-bottom: 10vh;
- 
+
 }
 
-div.FLEX{
+div.FLEX {
     align-items: flex-start;
     display: flex;
     justify-content: center;
@@ -46,29 +46,33 @@ div.FLEX{
     padding-right: 5%;
 }
 
-.ingredients-list{
+.ingredients-list {
     background-color: #939b5a;
     text-align: center;
 
     margin-left: 2%;
-    margin-right:2%;
+    margin-right: 2%;
     padding-left: 0;
-    padding-right:0;
+    padding-right: 0;
 }
 
-.instructions-list{
+.instructions-list {
     background-color: #939b5a;
-    text-align: center;
+    text-align: left;
 
     margin-left: 2%;
-    margin-right:2%;
+    margin-right: 2%;
     padding-left: 0;
-    padding-right:0;
+    padding-right: 0;
 }
-
-.column{
+.ingredients-list li,
+.instructions-list li {
+    margin-bottom: 0.75em;
+}
+.column {
     padding-left: 5%;
 }
+
 .topnav {
     background-color: #f1ebe5;
     overflow: hidden;
@@ -81,11 +85,11 @@ div.FLEX{
     text-decoration: none;
 }
 
-#ingredients{
+#ingredients {
     text-decoration: underline
 }
 
-#instructions{
+#instructions {
     text-decoration: underline
 }
 
@@ -113,7 +117,7 @@ ul {
     padding: 1em
 }
 
-li {
+li.navbar {
     display: inline;
 }
 
@@ -129,7 +133,7 @@ li a:hover {
     background-color: #a19c86;
 }
 
-#curr{
+#curr {
     white-space: nowrap;
     overflow: hidden;
 }

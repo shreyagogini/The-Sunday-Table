@@ -58,14 +58,17 @@ div.FLEX {
 
 .instructions-list {
     background-color: #939b5a;
-    text-align: center;
+    text-align: left;
 
     margin-left: 2%;
     margin-right: 2%;
     padding-left: 0;
     padding-right: 0;
 }
-
+.ingredients-list li,
+.instructions-list li {
+    margin-bottom: 0.75em;
+}
 .column {
     padding-left: 5%;
 }
@@ -114,7 +117,7 @@ ul {
     padding: 1em
 }
 
-li {
+li.navbar {
     display: inline;
 }
 
