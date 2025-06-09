@@ -2,15 +2,15 @@ const recipes = [
     { name: "Jasmine Rice", url: "jasminericeR.html" },
     { name: "Double Chocolate Cookies", url: "chococookiesR.html" },
     { name: "Pumpkin Pie", url: "pumpkinpieR.html" },
-    { name: "Chicken", url: "chickenR.html" },
-    { name: "Chicken Spinach Dumplings", url: "chickenspindumpR.html" },
+    { name: "Teriyaki Chicken", url: "teriyakichickenR.html" },
+    { name: "Chicken Spinach Dumplings", url: "spinachchickendumpR.html" },
     { name: "Sourdough Bread", url: "sourdoughR.html" },
     { name: "Yogurt Parfait", url: "yogurtparfaitR.html" },
     { name: "Rotisserie Chicken", url: "chickenR.html" },
     { name: "Mango Sticky Rice", url: "mangoriceR.html" },
     { name: "Trail Mix", url: "trailmixR.html" },
     { name: "Caesar Salad", url: "caesarsaladR.html" },
-    { name: "Pasta al la Vodka", url: "pastalavodkaR.html" },
+    { name: "Pasta al la Vodka", url: "vodkapastaR.html" },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
